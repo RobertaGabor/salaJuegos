@@ -22,10 +22,10 @@ export class JuegoComponent implements OnInit {
 
   cambiarNombre():void{
     this.user.nombre="Lara";
-    this.user.apellido="peposo";
+
   }
   aceptar():void{
     console.log(this.user.nombre);
-    console.log(this.user.apellido);
+
   }
 }
